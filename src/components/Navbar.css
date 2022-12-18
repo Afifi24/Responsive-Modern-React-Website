@@ -48,7 +48,7 @@ nav{
     position: absolute;
     left: calc(50% - 0.6rem);
     transform: rotate(45deg);
-    margin-top: 2.5rem;
+    margin-top: 0.9rem;
 }
 
 /* media query (medium and small screens )*/
