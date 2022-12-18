@@ -8,6 +8,7 @@ import Trainers from './pages/trainers/trainers'
 import Notfound from './pages/notfound/notfound'
 import Gallery from './pages/gallery/gallery'
 import Navbar from "./components/Navbar"
+import { Footer } from "./components/Footer"
 const App = () => {
   return (
     <BrowserRouter>
@@ -21,6 +22,7 @@ const App = () => {
       <Route path="/gallery" element={<Gallery/>}/>
       <Route path="*" element={<Notfound/>}/>
      </Routes>
+     <Footer/>
     
   
     
