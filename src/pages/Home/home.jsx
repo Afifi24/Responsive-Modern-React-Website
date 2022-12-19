@@ -14,7 +14,7 @@ export default function Home() {
     <Values/>
     <FAQs/>
     <Testemonials/>
-    <Footer/>
+    
     </div>
   )
 }
