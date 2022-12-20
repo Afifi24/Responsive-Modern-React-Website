@@ -29,7 +29,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
     color: var(--color-gray-200);
-    background: var(--color-gray-600);
+    background: var(--color-gray-600) url('./images/bg_texture.png');
     line-height: 1.7;
     overflow-x: hidden;
     

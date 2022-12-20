@@ -1,0 +1,21 @@
+import Card from '../UI/Card'
+const Trainer = ({image,name,socials,job}) => {
+  return (
+    <Card className='trainer'>
+      <div className="trainer__img">
+          <img src={image} alt={name} />
+      </div>
+      <h3>{name}</h3>
+      <p>{job}</p>
+      <div className="trainer__socials">
+        {
+            socials.map(({icon,link},index)=>{
+                return <a target='_blank' key={index} href={link}>{icon}</a>
+            })
+        }
+      </div>
+    </Card>
+  )
+}
+
+export default Trainer
